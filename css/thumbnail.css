@@ -1,0 +1,43 @@
+@import url("main.css");
+/* 슬라이더 추가 */
+
+/* 썸네일 영역 */
+.thumbnail {
+  width: 100%;
+  display: flex;
+}
+
+/* 썸네일 */
+.thumb {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: calc(100% / 5);
+  border-bottom: 1px solid #ededed;
+  background-color: #fff;
+}
+/* 도트로 바꾸기 */
+.thumb a::after {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  top: 20px;
+  width: 1px;
+  background-color: #ededed;
+  content: "";
+}
+.thumb a {
+  height: 74px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+}
+.thumb-txt {
+    font-size: 12px;
+    font-weight: bold;
+}
+.thumb a img {
+  width: 40px;
+  height: 40px;
+}

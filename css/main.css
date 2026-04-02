@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* 폰트 찾아오기 */
+body {
+  font-family:
+    Malgun Gothic,
+    맑은 고딕,
+    sans-serif;
+  position: relative;
+}
+img {
+    width: 100%;
+  display: block;
+}

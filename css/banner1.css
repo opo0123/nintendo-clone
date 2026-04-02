@@ -1,0 +1,19 @@
+@import url("main.css");
+
+/* 영역 */
+.banner1-inner {
+  max-width: 1200px;
+  min-width: 980px;
+  padding:  0 40px;
+  margin: 0 auto;
+}
+.banner1-img {
+  max-width: 830px;
+  padding-top: 72px;
+  margin: 0 auto;
+}
+
+/* 이미지 */
+.banner1-img img {
+  display: block;
+}
