@@ -1,0 +1,39 @@
+@import url("main.css");
+
+/* 더보기 버튼 */
+/* 영역 */
+
+.more-btn {
+  width: 188px;
+  margin: auto;
+  display: flex;
+  background-color: #e60012;
+  border-radius: 2px;
+}
+
+.more-btn a {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.more-btn a span {
+  padding-top: 1px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 700;
+}
+/* 아이콘 대신 이미지 사용 */
+.more-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+/* 배너 */
+.number-banner {
+    margin: 80px 0;
+}

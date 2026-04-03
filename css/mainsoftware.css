@@ -1,0 +1,159 @@
+@import url("main.css");
+
+.main-soft-wrap {
+  width: 100%;
+}
+.main-soft-wrap .inner {
+  padding: 0 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* 제목 */
+.main-soft-title {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.main-soft-title h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.main-soft-title span {
+  font-size: 18px;
+}
+
+/* 카드 리스트 영역 */
+.main-card-list {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 15px;
+}
+
+/* 카드 */
+.main-card {
+  position: relative;
+  width: calc((100% - 45px) / 4);
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #e6e6e6;
+}
+.main-card a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 이미지 */
+.main-img {
+  position: relative;
+  width: 100%;
+}
+/* 닌텐토 버전 */
+.nintendo-ver {
+  background-color: #e60012;
+  border: 1px solid #e60012;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 3px;
+  padding: 3px 0;
+  text-align: center;
+}
+/* 텍스트 */
+.main-txt {
+  width: 100%;
+  font-weight: bold;
+  line-height: 20px;
+  /* 부모나 자신의 font-size를 기준으로 크기 설정 */
+  padding: 1em 0;
+  /* 남은 공간을 얼마나 가져갈지 비율로 결정 */
+  flex-grow: 1;
+  /* background-color: beige; */
+}
+/* 텍스트 아래 */
+.main-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main-txt-bt {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-txt-bt p {
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.main-txt-bt span {
+  color: #8c8c8c;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* 아이콘 */
+.main-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* 5번 */
+.main-card:nth-of-type(5) .nintendo-ver {
+  background-color: #fff;
+  border: 1px solid #e60012;
+  color: #e60012;
+}
+
+/* 1,2번 배경 추가 - 이미지만 변경 */
+.main-card:nth-of-type(1)::before {
+  background: url(/images/icons/) no-repeat;
+  background-position: left top;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.main-card:nth-of-type(2)::before {
+  background: url(/images/icons/) no-repeat;
+  background-position: left top;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+/* 아이콘 (이미지) 크기 */
+#all {
+  margin-bottom: 4px;
+  width: 34px;
+  height: 40px;
+}
+#kor {
+  margin-bottom: 4px;
+  width: 44px;
+  height: 27px;
+}
+#arrow {
+  width: 18px;
+  height: 18px;
+}

@@ -11,9 +11,13 @@ a {
   color: #333;
   text-decoration: none;
 }
-
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* 폰트 찾아오기 */
 body {
+  margin: auto;
   font-family:
     Malgun Gothic,
     맑은 고딕,
@@ -21,6 +25,6 @@ body {
   position: relative;
 }
 img {
-    width: 100%;
+  width: 100%;
   display: block;
 }
