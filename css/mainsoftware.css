@@ -31,6 +31,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px 15px;
+  padding-bottom: 56px;
 }
 
 /* 카드 */
@@ -120,7 +121,7 @@
 
 /* 1,2번 배경 추가 - 이미지만 변경 */
 .main-card:nth-of-type(1)::before {
-  background: url(/images/icons/) no-repeat;
+  background: url(/images/icons/new-bg.png) no-repeat;
   background-position: left top;
   position: absolute;
   content: "";
@@ -131,7 +132,7 @@
   z-index: 9;
 }
 .main-card:nth-of-type(2)::before {
-  background: url(/images/icons/) no-repeat;
+  background: url(/images/icons/new-bg.png) no-repeat;
   background-position: left top;
   position: absolute;
   content: "";

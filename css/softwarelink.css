@@ -1,0 +1,56 @@
+@import url("main.css");
+
+/* 전체영역 */
+.software-link-wrap .inner {
+  padding: 0 40px;
+  font-size: 16px;
+}
+
+/* top */
+.software-top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+.software-top a {
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
+  gap: 10px;
+  padding: 28px 36px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.software-top a img {
+  width: 14px;
+  height: 14px;
+}
+.software-top a:hover {
+  color: #e60012;
+}
+
+/* bot */
+.software-bot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.software-bot a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #d9d9d9;
+  border-radius: 2px;
+  padding: 11px 24px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.software-bot a img {
+  width: 14px;
+  height: 14px;
+}
+.software-bot a:hover {
+  border: 2px solid #e60012;
+  color: #e60012;
+}

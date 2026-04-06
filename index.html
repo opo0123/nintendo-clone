@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nintendo-clone</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <!-- link swiper js -->
+    <script src="js/script.js" defer></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/visual.css" />
@@ -12,6 +22,9 @@
     <link rel="stylesheet" href="css/new.css" />
     <link rel="stylesheet" href="css/middle.css" />
     <link rel="stylesheet" href="css/mainsoftware.css" />
+    <link rel="stylesheet" href="css/softwarelink.css" />
+    <link rel="stylesheet" href="css/footer-banner.css" />
+    <link rel="stylesheet" href="css/purchase.css" />
     <!-- faviocn -->
     <link
       rel="icon"
@@ -96,11 +109,29 @@
         </nav>
       </header>
 
-      <!-- 비주얼 (슬라이드) -->
-      <div class="visual-slide">
-        <img src="images/banner-top/banner1.png" alt="슬라이드1" />
+      <!-- 비주얼 (스와이퍼) -->
+      <div class="swiper visual-Swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/banner-top/banner1.png" alt="banner1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner-top/banner2.png" alt="banner2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner-top/banner3.png" alt="banner3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner-top/banner4.png" alt="banner4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/banner-top/banner5.png" alt="banner5" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
-
       <!-- 썸네일 -->
       <div class="thumbnail">
         <div class="thumb">
@@ -365,7 +396,7 @@
             <h2>주요 소프트웨어</h2>
             <span>Pickup</span>
           </div>
-          
+
           <!-- 카트 리스트 영역 -->
           <ul class="main-card-list">
             <!-- 1 -->
@@ -616,6 +647,90 @@
           </ul>
         </div>
       </div>
+
+      <!-- 소프트웨어 링크 -->
+      <div class="software-link-wrap">
+        <div class="inner">
+          <div class="software-link-container">
+            <!-- top -->
+            <div class="software-top">
+              <a href="#"
+                >Nintendo Switch 2 소프트웨어
+                <img src="images/icons/right.png" alt="right"
+              /></a>
+              <a href="#"
+                >Nintendo Switch 소프트웨어<img
+                  src="images/icons/right.png"
+                  alt="right"
+              /></a>
+              <a href="#"
+                >스마트폰용 앱<img src="images/icons/right.png" alt="right"
+              /></a>
+            </div>
+            <!-- bottom -->
+            <div class="software-bot">
+              <a href="#"
+                ><img src="images/icons/right.png" alt="right" />소프트웨어 발매
+                스케줄</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 푸터 배너 -->
+      <div class="footer-banner-wrap">
+        <div class="inner">
+          <div class="footer-banner-list">
+            <a href="#"
+              ><img
+                src="images/banner-bt/banner_main_bottom01.jpg"
+                alt="bt-banner1"
+            /></a>
+            <a href="#"
+              ><img
+                src="images/banner-bt/banner_main_bottom02.jpg"
+                alt="bt-banner2"
+            /></a>
+            <a href="#"
+              ><img
+                src="images/banner-bt/banner_main_bottom03.jpg"
+                alt="bt-banner3"
+            /></a>
+
+            <div class="footer-banner-list">
+              <a href="#"
+                ><img
+                  src="images/banner-bt/banner_main_bottom04.jpg"
+                  alt="bt-banner4"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/banner-bt/banner_main_bottom05.jpg"
+                  alt="bt-banner5"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/banner-bt/banner_main_bottom06.jpg"
+                  alt="bt-banner6"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 구입 안내 -->
+       <div class="purchase-wrap">
+        <div class="inner">
+          <h2>쉽고 간편한 다운로드 버전으로도 즐길 수 있습니다.</h2>
+          <!-- 리스트 -->
+          <ul class="purchase-info">
+            <li><a href="#"><img src="images/icons/cart-icon.png" alt="cart"> <span>다운로드 구입하기<img src="images/icons/banner_arrow.png" alt="arrow"></span></a></li>
+            <li><a href="#"><img src="images/icons/card-icon.png" alt="cart"> <span>Nintendo Switch / 닌텐도 3DS<br>닌텐도 선불 카드 안내<img src="images/icons/banner_arrow.png" alt="arrow"></span></a></li>
+            <li><a href="#"><img src="images/icons/game-icon.png" alt="cart"> <span>Nintendo Switch<br>닌텐도 선불 번호 구입하기 <img src="images/icons/banner_arrow.png" alt="arrow"></span></a></li>
+          </ul>
+        </div>
+       </div>
     </div>
   </body>
 </html>
