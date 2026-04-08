@@ -2,7 +2,7 @@
 
 /* 전체 */
 .purchase-wrap .inner {
-  padding: 0 20px;
+  padding: 0 20px 100px 20px;
   width: 100%;
 }
 
@@ -15,24 +15,26 @@
 .purchase-info {
   margin: 30px 0;
 }
-.purchase-info li {
+.purchase-info li a{
   display: flex;
   align-items: center;
   font-size: 17px;
   padding: 20px 0 20px 4%;
   border: 1px solid #d6d6d6;
   border-bottom: 1px solid #111;
-}
-.purchase-info li a {
-  display: flex;
-  align-items: center;
   gap: 45px;
 }
 
-.purchase-info li a span {
-  display: flex;
-  align-items: center;
-/* 이미지 gap 조절하기 !!*/
+.purchase-info li:nth-child(1) span {
+  padding-right: 16px;
+  background: url(../images/icons/banner_arrow.png) no-repeat 100% 59%;
+}
+.purchase-info li:nth-child(2) span{
+  background: url(../images/icons/banner_arrow.png) no-repeat 80% 86%;
+}
+.purchase-info li:nth-child(3) span{
+  padding-right: 20px;
+  background: url(../images/icons/banner_arrow.png) no-repeat 98% 86%;
 }
 
 /* 이미지 크기 조정 */

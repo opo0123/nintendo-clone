@@ -1,0 +1,71 @@
+@import url("main.css");
+
+/* 전체 영역 */
+.totop {
+  position: relative;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #e60012;
+}
+.totop-contents {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* 로고 */
+.totop .footer-logo {
+  width: 94px;
+  height: 23px;
+}
+
+/* GotoTop */
+.totop .gototop {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+    transition: all 0.3s;
+}
+
+/* 호버 후 TOP 글씨 */
+.totop .gototop:hover:before {
+  position: absolute;
+  content: "TOP";
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 11px;
+  color: #e60012;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* 호버 전 아이콘 */
+.totop .gototop::after {
+  position: absolute;
+  content: "";
+  background: url(../images/icons/btn_gotoTop.png) no-repeat;
+  top: 9px;
+  right: 26.4px;
+  width: 12px;
+  height: 7px;
+}
+/* 호버시 아이콘 */
+.totop .gototop:hover:after {
+  position: absolute;
+  content: "";
+  background: url(../images/icons/btn_gotoTop_hover.png) no-repeat;
+  top: 7px;
+  right: 4.75px;
+  width: 12px;
+  height: 7px;
+}
+/* GotoTop 호버시 */
+.totop .gototop:hover {
+  position: relative;
+  width: 70px;
+  border-radius: 30px;
+  background-color: #fff;
+}

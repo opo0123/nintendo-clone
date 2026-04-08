@@ -1,0 +1,42 @@
+@import url("main.css");
+
+/* 전체 영역 */
+.notice {
+    border-top: 1px solid #e6e6e6;
+    overflow: hidden;
+    padding: 22px 0;
+    width: 100%;
+}
+.notice .inner {
+    display: flex;
+}
+
+/* 왼 */
+.notice-main {
+    width: 20%;
+    padding:10px ;
+    padding-right: 20px;
+    text-align: center;
+}
+.notice-main p {
+    color: #8c8c8c;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+/* 오른 */
+.notice-text {
+    border-left: 2px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 84%;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0 10px 40px;
+}
+
+.notice-text img {
+    width: 10px;
+    height: 10px;
+}
