@@ -36,6 +36,7 @@
   display: flex;
   width: 100%;
   height: 100%;
+  border-bottom: 1px solid #e6e6e6;
 }
 .main-menu-list li {
   width: 100%;
@@ -44,11 +45,13 @@
   align-items: center;
   justify-content: center;
   border-right: 1px solid #e6e6e6;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: #3c3c3c;
   cursor: pointer;
-  /*transition: all .15s linear;*/
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+  transition: all 0.2s linear;
 }
 .main-menu-list li a {
   width: 100%;
@@ -60,15 +63,19 @@
 }
 .main-menu-list li a img {
   display: block;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
 }
-/* .main-menu-list li:hover {
+/* 호버시 색깔 변경 및 밑줄 */
+.main-menu-list li:hover {
   border-bottom: 5px solid #e60012;
 }
 .main-menu-list li:hover a {
   color: #e60012;
-} */
+}
+.main-menu-list li:hover a img {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(90%) saturate(5000%);
+}
 
 /* 검색 */
 .main-menu-list li:last-of-type {
@@ -87,3 +94,6 @@
   width: 26px;
   height: 26px;
 }
+
+
+

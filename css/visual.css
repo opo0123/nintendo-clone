@@ -18,6 +18,20 @@
   object-fit: cover;
 }
 
+/* 슬라이드 바 */
+.visual-Swiper .swiper-pagination-progressbar {
+  top: auto;
+  bottom: 0;
+}
+/* 전체 바 (배경) */
+.visual-Swiper .swiper-pagination-progressbar {
+  background: #f2f2f2;
+}
+/* 바 색깔 */
+.visual-Swiper .swiper-pagination-progressbar-fill {
+  background: #b9b9b9
+}
+
 /* 화살표 아이콘 */
 /* 왼 */
 .swiper-button-prev {
