@@ -5,3 +5,4 @@
 # 260406 - ~ visual slide, purchase html 까지 작업
 # 260408 - footer html 까지 작업
 # 260409 - footer 끝, 서브 메뉴 1, 4, 7(css -ing) 까지 작업
+# 260410 - 서브 메뉴, seo 적용 - 완료
